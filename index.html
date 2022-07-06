@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>o0otnto0o page</title>
+        <meta charset="utf-8">
+        <!-- include the termynal stylesheet -->
+        <link rel="stylesheet" href="assets/termynal.css">
+        <!-- some custom styles for the page -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+        <style>
+            body {
+                padding: 0; margin: 0;
+                background: #1a1e24;
+                width: 100%;
+                min-height: 100vh;
+                display: -webkit-box; display: -ms-flexbox; display: flex;
+                -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+                -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+                -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- the termynal container -->
+        <div id="termynal" data-termynal>
+            <span data-ty="input">Please wait, page is loading...</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Successfully loaded page</span>
+            <span data-ty></span>
+            <span data-ty>Welcome</span>
+        </div>
+
+        <!-- include and initialise termynal.js -->
+        <script src="assets/termynal.min.js" data-termynal-container="#termynal"></script>
+    </body>
+</html>
